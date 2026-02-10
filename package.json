@@ -1,0 +1,16 @@
+{
+  "name": "discord-invite-blast",
+  "version": "1.0.0",
+  "scripts": {
+    "send": "npx tsx send.ts",
+    "dry-run": "npx tsx send.ts --dry-run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0",
+    "resend": "^4.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "dotenv": "^16.4.0"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Preview</title>
+  <style>
+    body { background: #f5f5f5; margin: 0; padding: 40px; font-family: -apple-system, sans-serif; }
+    .inbox { max-width: 700px; margin: 0 auto; }
+    .header { background: #fff; border: 1px solid #ddd; border-bottom: none; border-radius: 8px 8px 0 0; padding: 16px 20px; }
+    .header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+    .from { font-weight: 600; font-size: 14px; }
+    .date { color: #888; font-size: 13px; }
+    .to { color: #888; font-size: 13px; }
+    .subject { font-weight: 700; font-size: 18px; margin-top: 8px; }
+    .email-body { background: #fff; border: 1px solid #ddd; border-radius: 0 0 8px 8px; padding: 0; }
+    .label { display: inline-block; background: #e8e8e8; color: #555; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="inbox">
+    <div class="header">
+      <div class="header-row">
+        <span class="from">jia &lt;jia@spreadjam.com&gt;</span>
+        <span class="date">Feb 9, 2026</span>
+      </div>
+      <div class="to">to me</div>
+      <div class="subject">hi from jia :3</div>
+      <span class="label">Inbox</span>
+    </div>
+    <div class="email-body">
+      <!-- actual email HTML below -->
+      <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 40px 20px; line-height: 1.7; color: #333;">
+        <p>hey sup! you might remember me from sprint.dev or such. i'm emailing you with an invite to the invite-only discord for people who have gone to hackathons or shipped projects.</p>
+        <p>btw if you are receiving this email, at some point i have personally reviewed your profile!</p>
+        <p>this link is only for you. do not share, as we are keeping the quality of the discord members high (unless you are referring someone actively building projects)</p>
+        <p>if you want to share with someone who's actively building, here's the link as text: <a href="https://discord.gg/5sdGUP4pG5">https://discord.gg/5sdGUP4pG5</a></p>
+        <a href="https://discord.gg/5sdGUP4pG5"
+           style="display: inline-block; background: #5865F2; color: white; padding: 14px 28px;
+                  border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; margin: 8px 0 16px;">
+          join the discord
+        </a>
+        <p>okay bai. p.s. there are founders of companies you know in the discord which you may see around</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
