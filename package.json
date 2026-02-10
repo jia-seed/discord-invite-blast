@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "send": "npx tsx send.ts",
-    "dry-run": "npx tsx send.ts --dry-run"
+    "dry-run": "npx tsx send.ts --dry-run",
+    "send-followup": "npx tsx send-followup.ts",
+    "dry-run-followup": "npx tsx send-followup.ts --dry-run"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.0",
